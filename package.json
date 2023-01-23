@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
-    "dev": "nodemon -r dotenv/config src/index.ts dotenv_config_path=.env.local"
+    "dev": "nodemon src/index.ts"
   },
   "repository": {
     "type": "git",
